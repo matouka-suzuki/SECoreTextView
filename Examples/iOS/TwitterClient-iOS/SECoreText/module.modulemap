@@ -1,4 +1,6 @@
-module SECoreTextiOS {
+framework module SECoreTextiOS {
     umbrella header "SECoreText.h"
+    
     export *
+    module * { export *}
 }
