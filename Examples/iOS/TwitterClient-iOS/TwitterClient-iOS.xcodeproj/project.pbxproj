@@ -59,11 +59,11 @@
 		6C0CA7881D1D07E30042A700 /* SELineLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1469DBBD17F35DC100ADDA7E /* SELineLayout.m */; };
 		6C0CA7891D1D07E60042A700 /* SETextSelection.h in Headers */ = {isa = PBXBuildFile; fileRef = 1469DBD017F35DC100ADDA7E /* SETextSelection.h */; };
 		6C0CA78A1D1D07E80042A700 /* SETextSelection.m in Sources */ = {isa = PBXBuildFile; fileRef = 1469DBD117F35DC100ADDA7E /* SETextSelection.m */; };
-		6C0CA78B1D1D07EB0042A700 /* SELinkText.h in Headers */ = {isa = PBXBuildFile; fileRef = 1469DBBE17F35DC100ADDA7E /* SELinkText.h */; };
+		6C0CA78B1D1D07EB0042A700 /* SELinkText.h in Headers */ = {isa = PBXBuildFile; fileRef = 1469DBBE17F35DC100ADDA7E /* SELinkText.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6C0CA78C1D1D07EE0042A700 /* SELinkText.m in Sources */ = {isa = PBXBuildFile; fileRef = 1469DBBF17F35DC100ADDA7E /* SELinkText.m */; };
 		6C0CA78D1D1D07F30042A700 /* SETextGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = 1469DBC617F35DC100ADDA7E /* SETextGeometry.h */; };
 		6C0CA78E1D1D07F60042A700 /* SETextGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 1469DBC717F35DC100ADDA7E /* SETextGeometry.m */; };
-		6C0CA78F1D1D07F80042A700 /* SETextAttachment.h in Headers */ = {isa = PBXBuildFile; fileRef = 1469DBC217F35DC100ADDA7E /* SETextAttachment.h */; };
+		6C0CA78F1D1D07F80042A700 /* SETextAttachment.h in Headers */ = {isa = PBXBuildFile; fileRef = 1469DBC217F35DC100ADDA7E /* SETextAttachment.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6C0CA7901D1D07FC0042A700 /* SETextAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 1469DBC317F35DC100ADDA7E /* SETextAttachment.m */; };
 		6C0CA7911D1D07FE0042A700 /* SETextInput.h in Headers */ = {isa = PBXBuildFile; fileRef = 1469DBC817F35DC100ADDA7E /* SETextInput.h */; };
 		6C0CA7921D1D08010042A700 /* SETextInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 1469DBC917F35DC100ADDA7E /* SETextInput.m */; };
@@ -79,7 +79,7 @@
 		6C0CA79C1D1D081D0042A700 /* SETextEditingCaret.m in Sources */ = {isa = PBXBuildFile; fileRef = 1469DBC517F35DC100ADDA7E /* SETextEditingCaret.m */; };
 		6C0CA79D1D1D081F0042A700 /* SEConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 1469DBBA17F35DC100ADDA7E /* SEConstants.h */; };
 		6C0CA79E1D1D08220042A700 /* SEConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 1469DBBB17F35DC100ADDA7E /* SEConstants.m */; };
-		6C0CA79F1D1D08250042A700 /* SECompatibility.h in Headers */ = {isa = PBXBuildFile; fileRef = 1469DBB817F35DC100ADDA7E /* SECompatibility.h */; };
+		6C0CA79F1D1D08250042A700 /* SECompatibility.h in Headers */ = {isa = PBXBuildFile; fileRef = 1469DBB817F35DC100ADDA7E /* SECompatibility.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6C0CA7A01D1D08270042A700 /* SECompatibility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1469DBB917F35DC100ADDA7E /* SECompatibility.m */; };
 		6C0CA7A11D1D082A0042A700 /* SEViewCaptureHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = D94F7A621AB685C700D96592 /* SEViewCaptureHelper.h */; };
 		6C0CA7A21D1D082D0042A700 /* SEViewCaptureHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D94F7A631AB685C700D96592 /* SEViewCaptureHelper.m */; };
@@ -870,6 +870,7 @@
 				6C0CA77D1D1D07A30042A700 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6C0CA7821D1D07A30042A700 /* Build configuration list for PBXNativeTarget "SECoreTextTests" */ = {
 			isa = XCConfigurationList;
@@ -878,6 +879,7 @@
 				6C0CA77F1D1D07A30042A700 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

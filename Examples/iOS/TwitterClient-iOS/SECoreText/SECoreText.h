@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <SECoreTextiOS/SETextView.h>
 
 //! Project version number for SECoreText.
 FOUNDATION_EXPORT double SECoreTextVersionNumber;
