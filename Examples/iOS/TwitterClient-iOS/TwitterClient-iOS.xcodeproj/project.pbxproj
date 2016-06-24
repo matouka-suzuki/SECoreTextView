@@ -196,6 +196,7 @@
 		6C0CA76E1D1D07A30042A700 /* SECoreTextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SECoreTextTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C0CA7751D1D07A30042A700 /* SECoreTextTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SECoreTextTests.m; sourceTree = "<group>"; };
 		6C0CA7771D1D07A30042A700 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C5C7B4B1D1D4A7500F3006E /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		D94F7A621AB685C700D96592 /* SEViewCaptureHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SEViewCaptureHelper.h; path = ../../../../Lib/SEViewCaptureHelper.h; sourceTree = "<group>"; };
 		D94F7A631AB685C700D96592 /* SEViewCaptureHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SEViewCaptureHelper.m; path = ../../../../Lib/SEViewCaptureHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -365,6 +366,7 @@
 			children = (
 				6C0CA7671D1D07A30042A700 /* SECoreText.h */,
 				6C0CA7691D1D07A30042A700 /* Info.plist */,
+				6C5C7B4B1D1D4A7500F3006E /* module.modulemap */,
 			);
 			path = SECoreText;
 			sourceTree = "<group>";
@@ -737,6 +739,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "$(SRCROOT)/SECoreText/module.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = SECoreText;
@@ -776,6 +779,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "$(SRCROOT)/SECoreText/module.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = SECoreText;
 				PRODUCT_NAME = "$(TARGET_NAME)iOS";

@@ -1,0 +1,4 @@
+module SECoreTextiOS {
+    umbrella header "SECoreText.h"
+    export *
+}
